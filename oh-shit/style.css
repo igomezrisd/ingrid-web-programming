@@ -18,7 +18,7 @@ html, body{
 	left: 0vw;
 	height: 100vh;
 	width: 100vw;
-	background-image: linear-gradient(dodgerblue, indianred);
+	background-image: linear-gradient(white, dodgerblue);
 }
 
 
@@ -139,7 +139,7 @@ top: 55.5vh;
 left: auto;
 height: 39vh;
 width:56vw;
-background-image: linear-gradient(blue, purple);
+background-image: linear-gradient(blue, lightgrey);
 }
 
 .dresserbar{
@@ -148,7 +148,7 @@ left: auto;
 top: 3vh;
 width: 56vw;
 height: 1vh;
-background-image: linear-gradient(to right, green , turquoise);
+background-color: black;
 }
 
 .dresserdoor {
@@ -157,7 +157,7 @@ left: 7vw;
 bottom: 4vh;
 height: 20vh;
 width: 10vw;
-background-image: linear-gradient(to bottom right, darkgreen, lightgreen);
+background-color: cornflowerblue;
 
 }
 
@@ -167,7 +167,7 @@ left: 23vw;
 bottom: 4vh;
 height: 20vh;
 width: 10vw;
-background-image: linear-gradient(to bottom right, darkgreen, lightgreen);
+background-color: cornflowerblue;
 
 }
 
@@ -178,7 +178,7 @@ left: 40vw;
 bottom: 4vh;
 height: 20vh;
 width: 10vw;
-background-image: linear-gradient(to bottom right, darkgreen, lightgreen);
+background-color: cornflowerblue;
 
 }
 
@@ -188,7 +188,7 @@ left: 15vw;
 bottom: 9vh;
 height: 10vh;
 width: 1vw;
-background-color: yellow;
+background-color: black;
 border-radius: 20%;
 
 }
@@ -199,7 +199,7 @@ left: 31vw;
 bottom: 9vh;
 height: 10vh;
 width: 1vw;
-background-color: yellow;
+background-color: black;
 border-radius: 20%;
 
 }
@@ -211,7 +211,7 @@ left: 48vw;
 bottom: 9vh;
 height: 10vh;
 width: 1vw;
-background-color: yellow;
+background-color: black;
 border-radius: 20%;
 
 }
@@ -258,7 +258,7 @@ border-radius: 4%;
 	width: 21vw;
 	height: 50vh;
 	border-style: solid;
-	border-color: black;
+	border-color: cornflowerblue;
 	border-width: thick;
 	animation-duration: 720s;
 	animation-name: window;
@@ -285,7 +285,7 @@ border-radius: 4%;
 	top: auto;
 	width: 1vh;
 	height: 50vh;
-	background-color: black;
+	background-color: cornflowerblue;
 }
 
 .windowcross2{
@@ -294,7 +294,7 @@ border-radius: 4%;
 	top: 6vh;
 	width: 1vh;
 	height: 21.1vw;
-	background-color: black;
+background-color: cornflowerblue;
 	transform: rotate(90deg);
 }
 
@@ -307,7 +307,7 @@ border-radius: 4%;
 	top: -19vh;
 	width: 18vw;
 	height: 35vw;
-	background-color: cornflowerblue;
+	background-color: black;
 	border-radius: 10%
 }
 
@@ -383,7 +383,7 @@ opacity: 1;
     left: 2vw;
     width: 3vw;
     height: 3vw;
-    background-color: firebrick;
+    background-color: cornflowerblue;
     border-radius: 10%;
 }
 
@@ -393,7 +393,7 @@ opacity: 1;
     left: 7vw;
     width: 3vw;
     height: 3vw;
-    background-color: firebrick;
+   background-color: cornflowerblue;
     border-radius: 10%;
 }
 
@@ -403,7 +403,7 @@ position: absolute;
     left: 12vw;
     width: 3vw;
     height: 3vw;
-      background-color: firebrick;
+    background-color: cornflowerblue;
     border-radius: 10%;
 }
 
@@ -413,7 +413,7 @@ position: absolute;
     left: 2vw;
     width: 3vw;
     height: 3vw;
-    background-color: firebrick;
+   background-color: cornflowerblue;
     border-radius: 10%;
 }
 
@@ -423,7 +423,7 @@ position: absolute;
     left: 7vw;
     width: 3vw;
     height: 3vw;
-    background-color: firebrick;
+background-color: cornflowerblue;
     border-radius: 10%;
 }
 
@@ -433,7 +433,7 @@ position: absolute;
     left: 12vw;
     width: 3vw;
     height: 3vw;
-    background-color: firebrick;
+   background-color: cornflowerblue;
     border-radius: 10%;
 }
 
@@ -443,7 +443,7 @@ position: absolute;
     left: 2vw;
     width: 3vw;
     height: 3vw;
-      background-color: firebrick;
+      background-color: cornflowerblue;
     border-radius: 10%;
 }
 
@@ -453,7 +453,7 @@ position: absolute;
     left: 7vw;
     width: 3vw;
     height: 3vw;
-      background-color: firebrick;
+     background-color: cornflowerblue;
     border-radius: 10%;
 }
 
@@ -463,7 +463,7 @@ position: absolute;
     left: 12vw;
     width: 3vw;
     height: 3vw;
-      background-color: firebrick;
+   background-color: cornflowerblue;
     border-radius: 10%;
 }
 
@@ -473,7 +473,7 @@ position: absolute;
     left: 7vw;
     width: 3vw;
     height: 3vw;
-       background-color: firebrick;
+    background-color: cornflowerblue;
     border-radius: 10%;
 }
 
@@ -483,7 +483,7 @@ position: absolute;
     left: 2vw;
     width: 3vw;
     height: 6vw;
-     background-color: firebrick;
+     background-color: gray;
 }
 
 
@@ -495,7 +495,7 @@ position: absolute;
     left: 12vw;
     width: 3vw;
     height: 6vw;
-    background-color: firebrick;
+    background-color: gray;
 }
 
 .button1text {
