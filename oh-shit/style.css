@@ -1,0 +1,758 @@
+html, body{
+	background-color: black;
+
+}
+
+.body {
+	opacity: 1;
+}
+
+.body.alarming {
+	opacity: .2;
+}
+
+
+.background{
+	position: absolute;
+	top: 0vh;
+	left: 0vw;
+	height: 100vh;
+	width: 100vw;
+	background-image: linear-gradient(dodgerblue, indianred);
+}
+
+
+.animators{
+	opacity: 0;
+	animation-iteration-count: infinite;
+	animation-direction: forwards;
+
+}
+
+.help {
+	background-image: url(eleven.gif);
+	position: absolute;
+	left: 68.25vw;
+	top: 7vh;
+	width: 21vw;
+	height: 50vh;
+
+}
+
+.hidden{
+	opacity: 0;
+}
+
+
+.screen {
+	position: absolute;
+	margin-top: auto;
+	margin-left: auto;
+	width: 93%;
+	height: 90%;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.g1{
+		background-image: url(giphy-1.gif);
+		background-repeat: no-repeat;
+		background-size: cover;
+}
+
+.g2{
+		background-image: url(giphy-2.gif);
+		background-repeat: no-repeat;
+		background-size: cover;
+}
+.g3{
+		background-image: url(giphy-3.gif);
+		background-repeat: no-repeat;
+		background-size: cover;
+}
+.g4{
+		background-image: url(giphy-4.gif);
+		background-repeat: no-repeat;
+		background-size: cover;
+}
+.g5{
+		background-image: url(giphy-5.gif);
+		background-repeat: no-repeat;
+		background-size: cover;
+}
+.g6{
+		background-image: url(giphy-6.gif);
+		background-repeat: no-repeat;
+		background-size: cover;
+}
+.g7{
+		background-image: url(giphy-7.gif);
+		background-repeat: no-repeat;
+		background-size: cover;
+}
+
+}
+.g8{
+
+		background-image: url(giphy-8.gif);
+		background-repeat: no-repeat;
+		background-size: cover;
+
+}
+.g9{
+		background-image: url(giphy-9.gif);
+		background-repeat: no-repeat;
+		background-size: cover;
+}
+.g10{
+		background-image: url(giphy-10.gif);
+		background-repeat: no-repeat;
+		background-size: cover;
+
+}
+.g11{
+		background-image: url(giphy-11.gif);
+		background-repeat: no-repeat;
+		background-size: cover;
+}
+.g12{
+background-image: url(giphy.gif);	
+background-repeat: no-repeat;
+		background-size: cover;
+}
+
+.alert{
+	position: absolute;
+	top: 10vh;
+	left: 13vw;
+	width: 40.5vw;
+	height: 46vh;
+	background-size: cover;
+	background-image: url(document.png) !important;
+	background-repeat: no-repeat;
+}
+
+
+.dresser {
+position: absolute;
+top: 55.5vh;
+left: auto;
+height: 39vh;
+width:56vw;
+background-image: linear-gradient(blue, purple);
+}
+
+.dresserbar{
+position: absolute;
+left: auto;
+top: 3vh;
+width: 56vw;
+height: 1vh;
+background-image: linear-gradient(to right, green , turquoise);
+}
+
+.dresserdoor {
+position: absolute;
+left: 7vw;
+bottom: 4vh;
+height: 20vh;
+width: 10vw;
+background-image: linear-gradient(to bottom right, darkgreen, lightgreen);
+
+}
+
+.dresserdoor2 {
+position: absolute;
+left: 23vw;
+bottom: 4vh;
+height: 20vh;
+width: 10vw;
+background-image: linear-gradient(to bottom right, darkgreen, lightgreen);
+
+}
+
+
+.dresserdoor3 {
+position: absolute;
+left: 40vw;
+bottom: 4vh;
+height: 20vh;
+width: 10vw;
+background-image: linear-gradient(to bottom right, darkgreen, lightgreen);
+
+}
+
+.dresserhandle {
+position: absolute;
+left: 15vw;
+bottom: 9vh;
+height: 10vh;
+width: 1vw;
+background-color: yellow;
+border-radius: 20%;
+
+}
+
+.dresserhandle2 {
+position: absolute;
+left: 31vw;
+bottom: 9vh;
+height: 10vh;
+width: 1vw;
+background-color: yellow;
+border-radius: 20%;
+
+}
+
+
+.dresserhandle3 {
+position: absolute;
+left: 48vw;
+bottom: 9vh;
+height: 10vh;
+width: 1vw;
+background-color: yellow;
+border-radius: 20%;
+
+}
+
+.tvstand {
+position: absolute;
+left: auto;
+top: 45vh;
+height: 20vh;
+width: 1vw;
+background-color: black;
+border-radius: 20%;
+transform: rotate(90deg);
+
+}
+
+.tvstand2 {
+position: absolute;
+left: auto;
+top: 47vh;
+height: 8vh;
+width: 2vw;
+background-color: black;
+
+}
+
+.tvbox {
+position: relative;
+display: flex;
+align-items: center;
+justify-content: center;
+left: 19vh;
+top: 3vw;
+height: 47vh;
+width: 79vh;
+background-color: black;
+border-radius: 4%;
+}
+
+.windowbox {
+	position: absolute;
+	left: 59vw;
+	top: -1vh;
+	width: 21vw;
+	height: 50vh;
+	border-style: solid;
+	border-color: black;
+	border-width: thick;
+	animation-duration: 720s;
+	animation-name: window;
+	animation-iteration-count: infinite;
+
+}
+
+@keyframes window{
+0%{
+	background-color: lightblue;
+}
+50%{
+	background-color: midnightblue;
+}
+100%{
+	background-color: lightblue;
+}
+}
+
+
+.windowcross1{
+	position: absolute;
+	left: 10vw;
+	top: auto;
+	width: 1vh;
+	height: 50vh;
+	background-color: black;
+}
+
+.windowcross2{
+	position: absolute;
+	left: 10.3vw;
+	top: 6vh;
+	width: 1vh;
+	height: 21.1vw;
+	background-color: black;
+	transform: rotate(90deg);
+}
+
+
+
+
+.remote{
+	position: relative;
+	left: 71vw;
+	top: -19vh;
+	width: 18vw;
+	height: 35vw;
+	background-color: cornflowerblue;
+	border-radius: 10%
+}
+
+
+
+.powerbutton{
+	position: absolute;
+	top: 2vh;
+	left: 1vw;
+	width: 5vw;
+	height: 9vh;
+		color: white;
+
+}
+
+.alarm {
+	position: absolute;
+top: 2vh;
+	left: 1vw;
+	width: 5vw;
+	height: 9vh;
+	animation-name: pulse;
+  /*animation-duration: .5s;*/
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+
+
+.secondsbutton{
+    position: absolute;
+    top: 6vh;
+    left: 7vw;
+    width: 1vw;
+    height: 1vw;
+    background-color: green;
+    border-radius: 50%;
+    animation-name: pulse;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+
+.secondsbutton.flashing {
+	position: absolute;
+	bottom: 57vh;
+	right: 22vw;
+	width: 1vw;
+	height: 1vw;
+	background-color: red;
+	border-radius: 50%;
+	animation-name: pulse;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes pulse{
+0% {
+opacity: 1;
+}
+50%{
+	opacity: 0;
+}
+100%{
+	opacity: 1;
+}
+}
+
+
+.button1{
+    position: absolute;
+    top: 15vh;
+    left: 2vw;
+    width: 3vw;
+    height: 3vw;
+    background-color: firebrick;
+    border-radius: 10%;
+}
+
+.button2{
+    position: absolute;
+    top: 15vh;
+    left: 7vw;
+    width: 3vw;
+    height: 3vw;
+    background-color: firebrick;
+    border-radius: 10%;
+}
+
+.button3{
+position: absolute;
+    top: 15vh;
+    left: 12vw;
+    width: 3vw;
+    height: 3vw;
+      background-color: firebrick;
+    border-radius: 10%;
+}
+
+.button4{
+    position: absolute;
+    top: 25vh;
+    left: 2vw;
+    width: 3vw;
+    height: 3vw;
+    background-color: firebrick;
+    border-radius: 10%;
+}
+
+.button5{
+    position: absolute;
+    top: 25vh;
+    left: 7vw;
+    width: 3vw;
+    height: 3vw;
+    background-color: firebrick;
+    border-radius: 10%;
+}
+
+.button6{
+    position: absolute;
+    top: 25vh;
+    left: 12vw;
+    width: 3vw;
+    height: 3vw;
+    background-color: firebrick;
+    border-radius: 10%;
+}
+
+.button7{
+    position: absolute;
+    top: 36vh;
+    left: 2vw;
+    width: 3vw;
+    height: 3vw;
+      background-color: firebrick;
+    border-radius: 10%;
+}
+
+.button8{
+    position: absolute;
+    top: 36vh;
+    left: 7vw;
+    width: 3vw;
+    height: 3vw;
+      background-color: firebrick;
+    border-radius: 10%;
+}
+
+.button9{
+    position: absolute;
+    top: 36vh;
+    left: 12vw;
+    width: 3vw;
+    height: 3vw;
+      background-color: firebrick;
+    border-radius: 10%;
+}
+
+.button0{
+     position: absolute;
+    top: 47vh;
+    left: 7vw;
+    width: 3vw;
+    height: 3vw;
+       background-color: firebrick;
+    border-radius: 10%;
+}
+
+.volbox {
+    position: absolute;
+    top: 47vh;
+    left: 2vw;
+    width: 3vw;
+    height: 6vw;
+     background-color: firebrick;
+}
+
+
+
+
+.chbox {
+    position: absolute;
+    top: 47vh;
+    left: 12vw;
+    width: 3vw;
+    height: 6vw;
+    background-color: firebrick;
+}
+
+.button1text {
+	position: absolute;
+    top: 1vh;
+    left: 1vw;
+	font-family: Helvetica;
+	font-weight: bold; 
+	font-size: 2vw;
+	text-align: center;
+	color: white;
+}
+
+.button2text {
+	position: absolute;
+    top: 1vh;
+    left: 1vw;
+	font-family: Helvetica;
+	font-weight: bold; 
+	font-size: 2vw;
+	text-align: center;
+		color: white;
+}
+
+.button3text {
+	position: absolute;
+    top: 1vh;
+    left: 1vw;
+	font-family: Helvetica;
+	font-weight: bold; 
+	font-size: 2vw;
+	text-align: center;
+		color: white;
+}
+
+.button4text {
+	position: absolute;
+    top: 1vh;
+    left: 1vw;
+	font-family: Helvetica;
+	font-weight: bold; 
+	font-size: 2vw;
+	text-align: center;
+		color: white;
+}
+
+.button5text {
+	position: absolute;
+    top: 1vh;
+    left: 1vw;
+	font-family: Helvetica;
+	font-weight: bold; 
+	font-size: 2vw;
+	text-align: center;
+		color: white;
+}
+
+.button6text {
+	position: absolute;
+    top: 1vh;
+    left: 1vw;
+	font-family: Helvetica;
+	font-weight: bold; 
+	font-size: 2vw;
+	text-align: center;
+		color: white;
+}
+
+.button7text {
+	position: absolute;
+    top: 1vh;
+    left: 1vw;
+	font-family: Helvetica;
+	font-weight: bold; 
+	font-size: 2vw;
+	text-align: center;
+		color: white;
+}
+
+.button8text {
+	position: absolute;
+    top: 1vh;
+    left: 1vw;
+	font-family: Helvetica;
+	font-weight: bold; 
+	font-size: 2vw;
+	text-align: center;
+		color: white;
+}
+
+.button9text {
+	position: absolute;
+    top: 1vh;
+    left: 1vw;
+	font-family: Helvetica;
+	font-weight: bold; 
+	font-size: 2vw;
+	text-align: center;
+		color: white;
+}
+
+.button0text {
+	position: absolute;
+    top: 1vh;
+    left: 1vw;
+	font-family: Helvetica;
+	font-weight: bold; 
+	font-size: 2vw;
+	text-align: center;
+		color: white;
+}
+
+.vol1{
+      position: absolute;
+    top: 0vh;
+    left: 0.8vw;
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 2vw;
+   	color: white;
+}
+
+.vol2 {
+      position: absolute;
+    top: 7vh;
+    left: .9vw;
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 2vw;
+   	color: white;
+}
+
+.voltext{
+ position: absolute;
+    top: 5vh;
+    left: 0.5vw;
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 1vw;
+    	color: white;
+}
+
+.ch1{
+      position: absolute;
+    top: 0vh;
+    left: 0.8vw;
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 2vw;
+    	color: white;
+}
+
+.ch2 {
+      position: absolute;
+    top: 7vh;
+    left: .9vw;
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 2vw;
+    	color: white;
+}
+
+.chtext{
+ position: absolute;
+    top: 5vh;
+    left: .7vw;
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 1vw;
+    	color: white;
+}
+
+.volbar{
+	position: absolute;
+	bottom: 6vh;
+	left: 3vw;
+	width: 1.5vw;
+	height: 11vw;
+	background-color: black;
+	border:.5px solid white;
+animation-name: volume;
+  /*animation-duration: .5s;*/
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+
+}
+
+@keyframes volume{
+0%{
+	height: 0vw;
+}
+
+100%{
+	height: 12vw;
+}
+}
+
+
+.voltext2{
+	position: absolute;
+	bottom: 3.5vh;
+	left: 2.8vw;
+	font-family: Helvetica;
+	font-weight: bold; 
+	font-size: 1vw;
+	color: black;
+}
+
+.chbar {
+	position: absolute;
+	top: 4vh;
+	right: 3vw;
+	width: 6vw;
+	height: 3vw;
+	background-color: black;
+	border:1px solid white;
+}
+
+.chtext2{
+	position: absolute;
+	top: 1vh;
+	left: 1vw;
+	font-family: Helvetica;
+	font-weight: bold; 
+	font-size: 1vw;
+	color: white;
+}
+
+
+.chnumber{
+	position: absolute;
+	top: 1vh;
+	right: 1vw;
+	font-family: Helvetica;
+	font-weight: bold; 
+	font-size: 2vw;
+	color: white;
+	animation-name: hour;
+  animation-duration: 60s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes hour{
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
